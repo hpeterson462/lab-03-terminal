@@ -1,0 +1,44 @@
+
+body {
+    height: 100%;
+    weight: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  border-radius: 5px;
+  height: 100px;
+  width: auto;
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+#name {
+  height: 50px;
+  width: auto;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#footer {
+  background-color: red;
+  border-radius: 0px 5px 0px 5px;
+  height: 30px;
+  width: auto;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: white;
+}
