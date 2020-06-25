@@ -28,3 +28,26 @@ const userInput = document.getElementById('input');
 submitButton.addEventListener('click', () => {
   document.getElementById('name').textContent = input.value;
 })
+
+//counter
+
+const userCounter = document.getElementById('counter');
+
+let i = 0;
+
+submitButton.addEventListener('click', () => {
+  document.getElementById('counter').textContent = i++;
+})
+
+pinkButton.addEventListener('click', () => {
+  document.getElementById('counter').textContent = i++;
+})
+
+greenButton.addEventListener('click', () => {
+  document.getElementById('counter').textContent = i++;
+})
+
+blueButton.addEventListener('click', () => {
+  document.getElementById('counter').textContent = i++;
+})
+
