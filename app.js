@@ -21,6 +21,15 @@ blueButton.addEventListener('click', () => {
   footer.style.backgroundColor = 'lightBlue';
 })
 
+const redButton = document.getElementById('red');
+
+redButton.addEventListener('click', () => {
+  header.style.backgroundColor = 'red';
+  footer.style.backgroundColor = 'red';
+})
+
+
+
 //user input name
 
 const userInput = document.getElementById('input');
@@ -48,6 +57,10 @@ greenButton.addEventListener('click', () => {
 })
 
 blueButton.addEventListener('click', () => {
+  document.getElementById('counter').textContent = i++;
+})
+
+redButton.addEventListener('click', () => {
   document.getElementById('counter').textContent = i++;
 })
 
